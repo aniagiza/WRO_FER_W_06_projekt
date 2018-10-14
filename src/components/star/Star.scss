@@ -1,0 +1,11 @@
+$size: 200px;
+
+.star {
+  position: relative;
+  top: -$size / 2;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background-color: gold;
+  margin: auto;
+}
