@@ -29,6 +29,7 @@
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
+    "howler": "^2.0.15",
     "node-sass": "^4.9.3",
     "raw-loader": "^0.5.1",
     "react": "^16.5.2",

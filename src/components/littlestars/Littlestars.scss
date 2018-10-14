@@ -1,0 +1,27 @@
+
+@function multiple-box-shadow ($n) {
+  $value: '#{random(2000)}px #{random(2000)}px #FFF';
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF';
+  }
+  @return unquote($value);
+}
+
+$stars: multiple-box-shadow(800);
+
+.littlestars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: $stars;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 2000px;
+    width: 1px;
+    height: 1px;
+    background: white;
+    box-shadow: $stars;
+  }
+}

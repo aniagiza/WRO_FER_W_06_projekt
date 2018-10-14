@@ -1,0 +1,29 @@
+$width: 500px;
+$height: $width;
+$color: rgba(255, 0, 0, 1);
+
+.heart {
+  position: relative;
+  margin: 130px auto;
+  width: $width;
+  height: $height;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: $width * 0.5;
+  height: $height * 0.8;
+  background: $color;
+  border-radius: $width $width 0 0;
+  transform: translate($width * 0.15) rotate(-45deg);
+}
+
+.heart:after {
+  left: auto;
+  right: 0;
+  transform: translate(-$width * 0.14) rotate(45deg);
+}
