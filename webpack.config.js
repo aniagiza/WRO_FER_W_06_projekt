@@ -29,7 +29,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|mp3)$/,
         use: ["file-loader"]
       }
     ]
@@ -44,5 +44,6 @@ module.exports = {
 	},
   devServer: {
     contentBase: "./docs"
-  }
+  },
+  devtool: "source-map"
 }
