@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./App.scss";
-import imageSrc from "./peter.jpg";
-import Todos from "../todos/Todos";
+
+import { Parallax } from "react-spring"
 
 const App = () => (
-  <div className={ styles.app }>
-    <Todos/>
-  </div>
+    <Parallax pages={2}>
+
+    </Parallax>
 );
 
 export default App;
