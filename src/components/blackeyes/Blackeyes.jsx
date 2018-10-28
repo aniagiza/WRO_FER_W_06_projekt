@@ -4,16 +4,13 @@ import styles from "./Blackeyes.scss";
 
 export default () => (
   <div className={ styles.eyes }>
-  asdas
-  dasdasd
-  ad
-  asdasasd
-  asd
-  as
-  das
-  as
-  d
-    <div className ={styles.blackleftEye}><EyeReverse/></div>;
-    <div className ={styles.blackrightEye}><EyeReverse/></div>;
-  </div>
+    <div className ={styles.blackleftEye}><EyeReverse/></div>
+    <div className ={styles.blackrightEye}><EyeReverse/></div>
+    <div className={styles.screamWrapper}>
+      <p className={ styles.scream}>I screamed aloud as it tore thorough them</p>
+    </div>
+    <div className={styles.blindWrapper}>
+      <p className={ styles.blind }> and now it's left me blind </p>
+    </div>
+    </div>
 );

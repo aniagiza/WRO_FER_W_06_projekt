@@ -2,3 +2,34 @@
   height: 100%;
   background-color: black;
 };
+.wrapper {
+  position: absolute; left: 50%;
+}
+
+.starWrapper {
+  composes: wrapper;
+  top: 100px;
+}
+
+.fellWrapper {
+  composes: wrapper;
+  bottom: 150px
+}
+
+.text {
+  // margin: auto;
+  position: relative; left: -50%;
+}
+
+.star {
+  // top: 150px;
+  composes: text;
+}
+
+.fell{
+  // bottom: 150px;+
+  composes: text;
+  // font-size:3em;
+  // margin-bottom: 700px;
+  // padding-bottom: 300px;
+};

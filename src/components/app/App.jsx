@@ -15,6 +15,7 @@ import Eyes from "../eyes/Eyes";
 import Blackeyes from "../blackeyes/Blackeyes";
 import Starsmoonback from "../starsmoonback/Starsmoonback";
 import Bigstars from "../bigstars/Bigstars";
+import Dark from "../dark/Dark";
 import Daynight from "../daynight/Daynight";
 
 
@@ -74,7 +75,7 @@ class App extends React.Component {
                 <Parallax.Layer offset={3} speed={1}><Blackeyes /></Parallax.Layer>
                 <Parallax.Layer offset={4} speed={0}><Starsmoonback /></Parallax.Layer>
                 <Parallax.Layer offset={4} speed={-2}><Bigstars /></Parallax.Layer>
-                <Parallax.Layer offset={5} speed={-0.001}><Backgroundheart /></Parallax.Layer>
+                <Parallax.Layer offset={5} speed={-0.001}><Dark /></Parallax.Layer>
                 <Parallax.Layer offset={6} speed={0}><Daynight /></Parallax.Layer>
                 <Parallax.Layer offset={ 0.5 } speed={ -1 }><Star page={this.state.page}/></Parallax.Layer>
             </Parallax>

@@ -4,7 +4,7 @@ import styles from "./Eyes.scss";
 
 export default () => (
   <div className={ styles.eyes }>
-    <div className ={styles.leftEye}><Eye/></div>;
-    <div className ={styles.rightEye}><Eye/></div>;
+    <div className ={styles.leftEye}><Eye/></div>
+    <div className ={styles.rightEye}><Eye/></div>
   </div>
 );

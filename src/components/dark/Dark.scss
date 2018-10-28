@@ -1,13 +1,21 @@
-.eyesbackground{
+.dark {
   height: 100%;
-  background-color: black;
+  width: 100%;
+  background-image: url(http://www.14denoviembre.es/img/stars_5.png);
+  color: white;
+  text-align: center;
 };
+// span{
+//   margin: 300px;
+//   font-size:2em;
+//   display: inline-block;
+// };
+
 .wrapper {
   position: absolute; left: 50%;
 }
 
-
-.landWrapper {
+.darkWrapper {
   composes: wrapper;
   bottom: 150px
 }
@@ -17,10 +25,11 @@
   position: relative; left: -50%;
 }
 
-.land{
+
+.darkText{
   // bottom: 150px;+
   composes: text;
   // font-size:3em;
   // margin-bottom: 700px;
   // padding-bottom: 300px;
-};
+}

@@ -15,6 +15,38 @@ body {
   background-size:100% 600px;
   background-repeat:no-repeat;
 }
+.wrapper {
+  position: absolute; left: 50%;
+}
+
+.starsMoonWrapper {
+  composes: wrapper;
+  top: 150px;
+}
+
+.blownWrapper {
+  composes: wrapper;
+  bottom: 150px
+}
+
+.text {
+  // margin: auto;
+  position: relative; left: -50%;
+}
+
+.starsMoon {
+  // top: 150px;
+  composes: text;
+}
+
+.blown{
+  // bottom: 150px;+
+  composes: text;
+  // font-size:3em;
+  // margin-bottom: 700px;
+  // padding-bottom: 300px;
+};
+
 .starsmoonback {
   position:absolute;
   top:200px;

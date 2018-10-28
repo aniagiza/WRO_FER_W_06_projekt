@@ -4,13 +4,40 @@
   color: white;
   text-align: center;
 };
-span{
-  margin: 300px;
-  font-size:2em;
-  display: inline-block;
-};
+// span{
+//   margin: 300px;
+//   font-size:2em;
+//   display: inline-block;
+// };
+
+.wrapper {
+  position: absolute; left: 50%;
+}
+
+.titleWrapper {
+  composes: wrapper;
+  top: 150px;
+}
+
+.bandWrapper {
+  composes: wrapper;
+  bottom: 150px
+}
+
+.text {
+  // margin: auto;
+  position: relative; left: -50%;
+}
+
+.title {
+  // top: 150px;
+  composes: text;
+}
+
 .band{
-  font-size:3em;
-  margin-bottom: 700px;
-  padding-bottom: 300px;
+  // bottom: 150px;+
+  composes: text;
+  // font-size:3em;
+  // margin-bottom: 700px;
+  // padding-bottom: 300px;
 };

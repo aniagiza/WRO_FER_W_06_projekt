@@ -1,7 +1,38 @@
 .bigstars{
   background-image: url(http://images.all-free-download.com/images/graphiclarge/starry_background_192816.jpg);
   opacity: 0.1;
-  height:100%;
-  width: 100%;
-
+  height: 100vh;
+  width: 100vw;
 }
+.wrapper {
+  position: absolute; left: 50%;
+  z-index: 1;
+}
+
+.starsMoonWrapper {
+  composes: wrapper;
+  top: 150px;
+}
+
+.blownWrapper {
+  composes: wrapper;
+  // bottom: 150px
+}
+
+.text {
+  // margin: auto;
+  position: relative; left: -50%;
+}
+
+.starsMoon {
+  // top: 150px;
+  composes: text;
+}
+
+.blown{
+  bottom: 150px;
+  composes: text;
+  // font-size:3em;
+  // margin-bottom: 700px;
+  // padding-bottom: 300px;
+};

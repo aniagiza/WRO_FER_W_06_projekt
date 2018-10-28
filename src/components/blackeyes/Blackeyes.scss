@@ -19,3 +19,34 @@
 .blackrightEye {
   composes: blackeye;
 }
+.wrapper {
+  position: absolute; left: 50%;
+}
+
+.screamWrapper {
+  composes: wrapper;
+  top: 150px;
+}
+
+.blindWrapper {
+  composes: wrapper;
+  bottom: 150px
+}
+
+.text {
+  // margin: auto;
+  position: relative; left: -50%;
+}
+
+.scream {
+  // top: 150px;
+  composes: text;
+}
+
+.blind{
+  // bottom: 150px;+
+  composes: text;
+  // font-size:3em;
+  // margin-bottom: 700px;
+  // padding-bottom: 300px;
+};
