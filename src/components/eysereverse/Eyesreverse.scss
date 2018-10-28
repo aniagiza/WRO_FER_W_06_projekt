@@ -1,0 +1,12 @@
+.eye {
+  background: pink;
+  border: 5px solid red;
+}
+
+.leftEye {
+  composes: eye;
+}
+
+.rightEye {
+  composes: eye;
+}

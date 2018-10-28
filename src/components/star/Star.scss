@@ -1,12 +1,62 @@
-$size: 200px;
+$size: 300px;
+
 
 .star {
+  left: 0;
+  top: 0;
+  transition: left 2s ease-in-out, top 0.2s ease-in-out;
   position: relative;
-  top: -$size / 2;
   width: $size;
   height: $size;
-  border-radius: 50%;
-  background-color: gold;
   margin: auto;
-  image:url(https://avatanplus.com/files/resources/original/57750e473ca1a155a13fc650.png);
-}
+  //image:url(https://avatanplus.com/files/resources/original/57750e473ca1a155a13fc650.png);
+
+  //display: inline-block;
+   width: 0;
+   height: 0;
+
+
+
+   border-right:  .3em solid transparent;
+   border-bottom: .7em  solid #FC0;
+   border-left:   .3em solid transparent;
+
+   /* Controlls the size of the stars. */
+   font-size: 24px;
+
+   &:before, &:after {
+     content: '';
+
+     display: block;
+     width: 0;
+     height: 0;
+
+     position: absolute;
+     top: .6em;
+     left: -1em;
+
+     border-right:  1em solid transparent;
+     border-bottom: .7em  solid #FC0;
+     border-left:   1em solid transparent;
+
+     transform: rotate(-35deg);
+   }
+
+   &:after {
+     transform: rotate(35deg);
+   }
+ }
+
+
+.page_1 {
+    top: - $size / 2;
+  }
+
+ .page_2 {
+   top: -28px;
+   left: 17.5vw;
+ }
+ .page_3 {
+   top: -28px;
+   left: 17.5vw;
+ }

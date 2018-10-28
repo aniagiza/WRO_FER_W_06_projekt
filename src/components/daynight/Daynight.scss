@@ -1,0 +1,15 @@
+.clearfix::after :before {
+    content: "";
+    clear: both;
+    display: table;
+}
+.daynight{
+  margin: auto;
+  background-image: url(https://www.burgasnews.com/wp-content/uploads/2018/03/nosh-den.jpg);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: 100%;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+};

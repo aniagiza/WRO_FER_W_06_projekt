@@ -1,0 +1,25 @@
+$size: 15vw;
+
+.eyereverse1 {
+  margin-left: -50%;
+  text-align: center;
+  width: $size;
+  height: $size;
+  border: solid 1px white;
+  background-color: black;
+  border-radius:  75% 15%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.eyereverse1:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: $size * 355/500;
+  height: $size * 355/500;
+  border: solid 1px white;
+  background-color: #011111;
+  border-radius: 50%;
+  left: $size * 55/500;
+  top: $size * 55/500;
+}

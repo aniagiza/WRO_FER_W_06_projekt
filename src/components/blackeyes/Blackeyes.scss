@@ -1,0 +1,21 @@
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blackeye {
+  display: inline-block;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.blackleftEye {
+  composes: blackeye;
+}
+
+.blackrightEye {
+  composes: blackeye;
+}
