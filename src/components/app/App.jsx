@@ -20,7 +20,7 @@ import Daynight from "../daynight/Daynight";
 
 
 const thresholds = [
-  0, 2, 5, 8, 10, 16, 25, 34 * 60 + 16
+  0, 4, 10, 16, 28, 38, 45, 50 * 60 + 16
 ];
 
 class App extends React.Component {
